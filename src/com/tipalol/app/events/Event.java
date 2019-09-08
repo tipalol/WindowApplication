@@ -9,6 +9,7 @@ public class Event {
     }
 
     private Type type;
+    public boolean handled;
 
     protected Event(Type type) {
         this.type = type;
