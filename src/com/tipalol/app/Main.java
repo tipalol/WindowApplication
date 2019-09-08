@@ -1,4 +1,4 @@
-package com.company;
+package com.tipalol.app;
 
 public class Main {
 
