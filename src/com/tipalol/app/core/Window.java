@@ -101,7 +101,7 @@ public class Window extends Canvas {
 
     //Logic
     private void onEvent(Event event) {
-        for (int i = layers.size() - 1; i > 0; i--)
+        for (int i = layers.size() - 1; i >= 0; i--)
             layers.get(i).onEvent(event);
     }
 

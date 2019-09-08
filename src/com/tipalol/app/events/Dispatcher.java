@@ -13,6 +13,6 @@ public class Dispatcher {
             return;
 
         if (event.getType() == type)
-            handler.handle(event);
+            event.handled = handler.handle(event);
     }
 }
