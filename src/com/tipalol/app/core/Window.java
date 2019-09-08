@@ -1,4 +1,4 @@
-package com.tipalol.app.Core;
+package com.tipalol.app.core;
 
 import javax.swing.*;
 
